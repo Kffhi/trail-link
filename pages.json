@@ -44,5 +44,10 @@
                 "text": "路线"
             }
         ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "需要获取您的位置信息以展示地图"
+        }
     }
 }
