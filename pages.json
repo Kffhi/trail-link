@@ -1,0 +1,48 @@
+{
+    "condition": {
+        "path": "pages/main/index"
+    },
+    "pages": [
+        {
+            "path": "pages/main/index",
+            "style": {
+                "navigationBarTitleText": "行辙"
+            }
+        },
+        {
+            "path": "pages/list/index",
+            "style": {
+                "navigationBarTitleText": "行辙"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "行辙",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "app-plus": {
+            "background": "#efeff4"
+        }
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#4d59f4",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/main/index",
+                "iconPath": "static/image/main_tabBar.png",
+                "selectedIconPath": "static/image/main_tabBar_active.png",
+                "text": "地图"
+            },
+            {
+                "pagePath": "pages/list/index",
+                "iconPath": "static/image/list_tobBar.png",
+                "selectedIconPath": "static/image/list_tobBar_active.png",
+                "text": "路线"
+            }
+        ]
+    }
+}
